@@ -98,10 +98,10 @@ After we generate 64 images per concept, we can run following command to evaluat
 
 
 ## Citation
-    @article{liu2023unsup,
+    @article{liu2023unsupervised,
         author = {Liu, Nan and Du, Yilun and Li, Shuang and Tenenbaum, Joshua B and Torralba, Antonio},
         title = {Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models},
-        journal = {Arxiv},
+        journal = {arXiv preprint arXiv:2306.05357},
         year = {2023},
     }
 
