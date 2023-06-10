@@ -18,7 +18,8 @@
     <sup>1</sup>UIUC, <sup>2</sup>MIT CSAIL
     <br>
 
-![](assets/demo.gif)
+https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
+
 
 ## Setup
 
