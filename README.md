@@ -1,4 +1,4 @@
-# Unsupervised Compositional Concepts Discovery
+# Unsupervised Compositional Concepts Discovery (ICCV 2023)
 
 <a href="https://energy-based-model.github.io/unsupervised-concept-discovery"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=red" height=20.5></a> 
 <a href="https://arxiv.org/abs/2306.05357"><img src="https://img.shields.io/badge/arXiv-2306.05357-b31b1b.svg" height=20.5></a>
@@ -16,6 +16,8 @@
     <sup>*</sup> Equal Contribution
     <br>
     <sup>1</sup>UIUC, <sup>2</sup>MIT CSAIL
+    <br>
+    ICCV 2023
     <br>
 
 https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
