@@ -23,6 +23,12 @@
 https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
 
 
+## Todo
+
+- [ ] Fix requirements.txt
+- [ ] Add support to other available models such as deepfloyd and StableDiffusionXL.
+
+
 ## Setup
 
 Run following to create a conda environment, and activate it:
