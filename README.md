@@ -1,4 +1,4 @@
-# Unsupervised Compositional Concepts Discovery (ICCV 2023)
+# Unsupervised Compositional Concepts Discovery <br> (ICCV 2023)
 
 <a href="https://energy-based-model.github.io/unsupervised-concept-discovery"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=red" height=20.5></a> 
 <a href="https://arxiv.org/abs/2306.05357"><img src="https://img.shields.io/badge/arXiv-2306.05357-b31b1b.svg" height=20.5></a>
