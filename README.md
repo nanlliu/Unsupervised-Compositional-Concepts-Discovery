@@ -3,6 +3,7 @@
 <a href="https://energy-based-model.github.io/unsupervised-concept-discovery"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=red" height=20.5></a> 
 <a href="https://arxiv.org/abs/2306.05357"><img src="https://img.shields.io/badge/arXiv-2306.05357-b31b1b.svg" height=20.5></a>
 
+https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
 > Text-to-image generative models have enabled high-resolution image synthesis across different domains, but require users to specify the content they wish to generate. In this paper, we consider the inverse problem -- given a collection of different images, can we discover the generative concepts that represent each image? We present an unsupervised approach to discover generative concepts from a collection of images, disentangling different art styles in paintings, objects, and lighting from kitchen scenes, and discovering image classes given ImageNet images. We show how such generative concepts can accurately represent the content of images, be recombined and composed to generate new artistic and hybrid images, and be further used as a representation for downstream classification tasks.  
 
 [Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models](https://energy-based-model.github.io/unsupervised-concept-discovery)
@@ -19,8 +20,6 @@
     <br>
     ICCV 2023
     <br>
-
-https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
 
 
 ## Setup
@@ -115,7 +114,7 @@ After we generate 64 images per concept, we can run following command to evaluat
 ### Scene Concepts
 We demonstrate our method can decompose kitchen scenes into multiple sets of factors.
 
-![kitchen_decomposition](assets/supp_ade20k_decomposition.png)
+![](assets/supp_ade20k_decomposition.png)
 
 ### Art Concepts
 Our method allows unsupervised concept decomposition from just a few paintings.
@@ -124,7 +123,7 @@ Our method allows unsupervised concept decomposition from just a few paintings.
 
 ## Concept Composition
 
-Discovered concepts can be further combined with existing knowledge (i.e., texts) of the text-condition generative models.
+Discovered concepts can be further combined with existing knowledge (i.e., texts) of the pretrained generative models.
 
 ![concept composition](assets/supp_external_composition.png)
 
