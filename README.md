@@ -36,6 +36,10 @@ Run following to create a conda environment, and activate it:
     conda create --name decomp python=3.8
     conda activate decomp
 
+Install Pytorch 1.11, the version we have tested on:
+
+    pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
 Next, install the required packages:
 
     pip install -r requirements.txt
@@ -84,6 +88,8 @@ Once model is trained, we can sample from each concept using following command:
 
 ## Visualization
 
+You need to download required packages from [DAAM](https://github.com/castorini/daam).
+
 DDIM + DAAM (Training Data)             |  DAAM (Generated Data)
 :-------------------------:|:-------------------------:
 ![decomposition_ade20k_training](assets/ade20k_training_daam.png) | ![decomposition_ade20k](assets/ade20_decomp.png)
@@ -104,6 +110,29 @@ After we generate 64 images per concept, we can run following command to evaluat
     python eval.py --model_path ${output_dir} --evaluation_metric clip --class_names "geyser" "chihuahua" "chimpanzee" "shopping cart" "mosque" --logit_threshold 0.3
     # ResNet-50
     python eval.py --model_path ${output_dir} --evaluation_metric resnet --class_names "geyser" "chihuahua" "chimpanzee" "shopping cart" "mosque" --logit_threshold 10
+
+
+## Unsupervised Decomposition
+
+### ImageNet Objects
+
+![Imagenet_decomposition](assets/imagenet_decomposition.png)
+
+### Scene Concepts
+
+![kitchen_decomposition](assets/supp_ade20k_decomposition.png)
+
+### Art Concepts
+
+![art decomposition](assets/art_decomposition.png)
+
+## Concept Composition
+
+Discovered concepts can be further combined with existing knowledge (i.e., texts) of the text-condition generative models.
+
+
+![concept composition](assets/supp_external_composition.png)
+
 
 
 ## Citation
