@@ -23,12 +23,6 @@
 https://github.com/nanlliu/Unsupervised-Compositional-Concepts-Discovery/assets/45443761/ca2504a2-2186-4edd-b37c-2b4e9c503a1b
 
 
-## Todo
-
-- [ ] Fix requirements.txt
-- [ ] Add support to other available models such as deepfloyd and StableDiffusionXL.
-
-
 ## Setup
 
 Run following to create a conda environment, and activate it:
@@ -115,14 +109,16 @@ After we generate 64 images per concept, we can run following command to evaluat
 ## Unsupervised Decomposition
 
 ### ImageNet Objects
-
+ Our proposed method can discover different object categories from a set of unlabeled images.
 ![Imagenet_decomposition](assets/imagenet_decomposition.png)
 
 ### Scene Concepts
+We demonstrate our method can decompose kitchen scenes into multiple sets of factors.
 
 ![kitchen_decomposition](assets/supp_ade20k_decomposition.png)
 
 ### Art Concepts
+Our method allows unsupervised concept decomposition from just a few paintings.
 
 ![art decomposition](assets/art_decomposition.png)
 
@@ -130,8 +126,11 @@ After we generate 64 images per concept, we can run following command to evaluat
 
 Discovered concepts can be further combined with existing knowledge (i.e., texts) of the text-condition generative models.
 
-
 ![concept composition](assets/supp_external_composition.png)
+
+## Todo
+
+- [ ] Add support to other available models such as deepfloyd and StableDiffusionXL.
 
 
 
