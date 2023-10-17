@@ -134,11 +134,13 @@ Discovered concepts can be further combined with existing knowledge (i.e., texts
 
 
 ## Citation
-    @article{liu2023unsupervised,
-        author = {Liu, Nan and Du, Yilun and Li, Shuang and Tenenbaum, Joshua B and Torralba, Antonio},
-        title = {Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models},
-        journal = {arXiv preprint arXiv:2306.05357},
-        year = {2023},
+    @InProceedings{Liu_2023_ICCV,
+        author    = {Liu, Nan and Du, Yilun and Li, Shuang and Tenenbaum, Joshua B. and Torralba, Antonio},
+        title     = {Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models},
+        booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+        month     = {October},
+        year      = {2023},
+        pages     = {2085-2095}
     }
 
 Feel free to let us know if we are missing any relevant citations.
